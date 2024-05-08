@@ -1,0 +1,82 @@
+Global Styles
+
+.pad-l {
+    padding-left: 20px;
+}
+
+/* Primary button */
+.bx--btn {
+    font-size: 1rem !important;
+    min-width: 20% !important;
+    max-height: 3rem;
+    margin-right: 5% !important;
+}
+
+.secondary-btn {
+    background-color: #002D9C !important;
+    min-width: 20% !important;
+}
+
+.gjs-cell-1B {
+    display: inline !important;
+}
+
+/* images */
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.bx--btn .bx--btn__icon {
+    position: absolute;
+    right: 1rem;
+    width: 2rem !important;
+    height: 2rem !important;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+/* text */
+
+.h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 0px 0px 0px 0px;
+    height: 75px;
+    border: none;
+  }
+
+    .h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+  }
+
+
+  .h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: lighter;
+  }
+
+/* backgrounds */

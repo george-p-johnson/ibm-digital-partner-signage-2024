@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 300;
+    padding: 0px 0px 0px 0px;
+    height: 75px;
+    border: none;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.column1 {
+    justify-content: start; /* Aligns content to the top */
+    padding: 4rem;
+}
+
+.logo {
+    width: 150px; /* Adjust size as needed */
+    margin-bottom: 11rem;
+}
+
+.learn-more {
+    position: absolute;
+    top: 734px;
+    right: 1549px;
+    width: 307px;
+    min-height: 6rem;
+    background-color: #0062FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem !important;
+}
+
+.column2 {
+    justify-content: flex-start; /* Aligns content to the top */
+    padding: 4rem;
+    background-image: url(/assets/img/3x/home@3x.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.button {
+    position: absolute;
+  top: 0px;
+  right: 0;
+}

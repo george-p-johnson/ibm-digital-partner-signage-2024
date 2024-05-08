@@ -1,0 +1,119 @@
+/* * {
+    box-sizing: border-box;
+} */
+/* Handwritten CSS */
+body {
+   margin: 0;
+   font-family: 'IBM Plex Sans', sans-serif;
+   background-image: url("/assets/placeholders/home.png");
+}
+
+.headline {
+   line-height: normal;
+   padding-top: 20px;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body, html {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Arial, sans-serif;
+}
+
+.container {
+   display: flex;
+   width: 90%;
+   height: 80%;
+   border: 2px solid #ccc; /* Optional border for visibility */
+   align-items: flex-start;
+}
+
+.column {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+}
+
+.column1 {
+   justify-content: flex-start; /* Aligns content to the top */
+}
+
+.logo {
+   width: 100px; /* Adjust size as needed */
+   margin-bottom: 20px;
+}
+
+.learn-more {
+   display: relative;
+   position: absolute;
+   bottom: 600px;
+   right: ;
+   margin: 10px;
+   width: 100px; /* Adjust size as needed */
+   background-color: 0062FF;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+.column2 {
+   /* Style as needed */
+}
+
+
+  /* copy & text */
+
+  .h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 64px;
+    font-weight: 300;
+    padding: 0px 0px 0px 0px;
+    height: 75px;
+    border: none;
+    color: #3D3D3D;
+  }
+
+    .h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    color: #3D3D3D;
+  }
+
+
+  .h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: lighter;
+    color: #3D3D3D;
+  }
+
+/* end custom css */
