@@ -1,7 +1,40 @@
 Global Styles
 
-.pad-l {
-    padding-left: 20px;
+body {
+    margin: 0;
+}
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.column1 {
+    justify-content: space-between; /* Aligns content to the top */
+    align-content: center;
+    padding: 4rem;
 }
 
 /* Primary button */
@@ -22,6 +55,15 @@ Global Styles
 }
 
 /* images */
+.global-header {
+background-image: url('/assets/img/SVG/rebus.svg'); /* Path to your logo image */
+background-size: contain; /* Adjusts the size of the logo to fit within the element */
+background-repeat: no-repeat; /* Prevents the logo from repeating */
+background-position: left center; /* Positions the logo on the left, vertically centered */
+height: 100px; /* Adjust the height as needed */
+width: 100%; /* Ensures the header spans the width of the page */
+}
+
 .grayscale {
     filter: grayscale(100%);
 }
@@ -44,7 +86,7 @@ Global Styles
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    font-size: 64px;
+    font-size: 58px;
     font-style: normal;
     font-weight: 300;
     padding: 0px 0px 0px 0px;
@@ -60,23 +102,39 @@ Global Styles
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 300;
+    color: #0062FF;
   }
 
 
   .h3 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
-    font-weight: light;
+    font-weight: 300 !important;
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    font-size: 32px;
+    font-size: 24px;
     font-style: normal;
     font-weight: lighter;
+  }
+
+  .partners-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .flex-row {
+      display: flex;          /* Enables flexbox */
+      flex-direction: row;    /* Aligns children in a horizontal row; this is default and can be omitted */
+      justify-content: flex-start; /* Aligns children at the start of the flex container */
+      align-items: center;    /* Vertically centers the children in the flex container */
+      gap: 10px;              /* Sets space between children */
   }
 
 /* backgrounds */

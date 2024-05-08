@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 240.65">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: #121245;
+      }
+
+      .cls-3 {
+        clip-rule: evenodd;
+        fill: none;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-2);
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-3" points="122.11 120.42 60.77 120.42 102.91 181.07 146.59 154.97 122.11 120.42 122.11 120.42"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon class="cls-3" points="204.57 120.42 102.91 181.07 163.24 181.07 204.57 120.42 204.57 120.42"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <polygon class="cls-3" points="60.77 120.42 122.11 120.42 146.66 85.88 102.91 59.78 60.77 120.42 60.77 120.42"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <polygon class="cls-3" points="204.57 120.42 102.91 59.78 163.24 59.78 204.57 120.42 204.57 120.42"/>
+    </clipPath>
+  </defs>
+  <g id="Sponsor_logos" data-name="Sponsor logos">
+    <g>
+      <path class="cls-2" d="M569.91,89.09h-50.83v10.17h37.65l-37.65,40.64v10.17h50.83v-10.17h-37.67l37.65-40.64,.02-10.17h0Zm-66.16-22.01c-3.72,0-6.75,3.02-6.75,6.75s3.02,6.75,6.75,6.75,6.75-3.02,6.75-6.75-3.02-6.75-6.75-6.75h0Zm235.32,32.16v-10.17h-15.25v-16.63h-10.17v57.29c0,11.23,9.1,20.33,20.33,20.33h5.09v-10.17h-5.08c-5.61,0-10.17-4.55-10.17-10.16v-30.49h15.25Zm-110.23,20.31c0-11.96-9.7-21.66-21.66-21.66s-21.66,9.7-21.66,21.66,9.7,21.66,21.66,21.66,21.66-9.7,21.66-21.66h0Zm0-30.45h10.17v60.97h-10.17v-7.21c-5.68,5.28-13.29,8.51-21.66,8.51-17.58,0-31.83-14.25-31.83-31.83s14.25-31.83,31.83-31.83h0c8.37,0,15.98,3.24,21.66,8.52v-7.14h0Zm48.28-1.38c-6.76,0-12.95,2.4-17.79,6.39v-5.02h-10.17v60.97h10.17v-34.39c0-9.83,7.97-17.79,17.79-17.79s17.79,7.96,17.79,17.79v34.39h10.17v-34.38c0-15.44-12.51-27.96-27.96-27.96h0Zm-332.52,31.83c0-11.96-9.69-21.66-21.66-21.66s-21.66,9.7-21.66,21.66,9.7,21.66,21.66,21.66,21.66-9.7,21.66-21.66h0Zm10.17,0c0,17.58-14.25,31.83-31.83,31.83s-31.82-14.25-31.82-31.83,14.25-31.83,31.82-31.83,31.83,14.25,31.83,31.83h0Zm-98.94-21.66c8.68,0,16.18,5.11,19.63,12.49h10.85c-3.93-13.1-16.09-22.66-30.48-22.66-17.58,0-31.83,14.25-31.83,31.83s14.25,31.83,31.83,31.83c14.38,0,26.54-9.55,30.48-22.66h-10.85c-3.45,7.38-10.95,12.49-19.63,12.49-11.96,0-21.66-9.7-21.66-21.66s9.7-21.66,21.66-21.66h0Zm157.32,21.66c0-11.96-9.7-21.66-21.66-21.66s-21.66,9.7-21.66,21.66,9.7,21.66,21.66,21.66,21.66-9.7,21.66-21.66h0Zm0-30.48h10.17v58.68h0c0,17.59-15.35,31.83-31.83,31.83-15.19,0-26.34-9.27-30.31-22.06h10.92c3.37,7.06,9.97,11.89,19.39,11.89,10.84,0,21.66-9.7,21.66-21.66v-4.91c-5.68,5.28-13.29,8.51-21.66,8.51-17.58,0-31.82-14.25-31.82-31.83s14.25-31.83,31.82-31.83c8.37,0,15.98,3.23,21.66,8.51v-7.15h0Zm48.28-1.35c-6.76,0-12.95,2.4-17.79,6.39v-5.03h-10.17v60.99h10.17v-34.39c0-9.83,7.97-17.79,17.79-17.79s17.79,7.96,17.79,17.79v34.39h10.17v-34.38c0-15.44-12.51-27.96-27.96-27.96h0Zm37.22,1.36h10.17v60.99h-10.17v-60.99h0Zm245.53-15.59h1.39c.64,0,1.13-.47,1.13-1.07s-.49-1.05-1.13-1.05h-1.39v2.12h0Zm2.42,.98l2.04,3.14h-1.58l-1.84-2.99h-1.05v2.99h-1.3v-7.47h2.82c1.26,0,2.31,.98,2.31,2.23,0,1.03-.55,1.8-1.41,2.1h0Zm4.62-.58c0-3.23-2.63-5.88-5.84-5.88s-5.82,2.65-5.82,5.88,2.61,5.88,5.82,5.88,5.84-2.65,5.84-5.88h0Zm.92,0c0,3.72-3.04,6.76-6.78,6.76s-6.74-3.04-6.74-6.76,3.04-6.76,6.74-6.76,6.78,3.04,6.78,6.76h0Z"/>
+      <g class="cls-1">
+        <image width="72" height="50" transform="translate(57.89 184.63) scale(1.32 -1.32)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAAzCAYAAAA0CE5FAAAACXBIWXMAAAhNAAAITQEhiCGBAAAA/0lEQVRoge3bsVUDMRRE0ZmRayKjAWqgQiqguv0EEjYEnAkIIHg3WVn6u97zjlN7Zkb4Uf76Bf672+fi5fVNsiT7fh17f85Zx7J1X8vW5DHnnNlEc86vREqkWNc5U6xr5dy/Zyfec7autb/2iuS9JS1pPHK0n3M/33uKpXydOfdG59nS+LG3Ii2NrEtLo5tHS6P356dvgfgFFQQqCFQQqCBQQaCCQAWBCgIVBCoIVBCoIFBBoIJABYEKAhUEKghUEKggUEGggkAFgQoCFQQqCFQQqCBQQaCCQAWBCgIVBCoIVBCoIFBBoIJABYEKAhUEKghUEKggUEGgwvyhDr/yAYQhK10svEJ5AAAAAElFTkSuQmCC"/>
+      </g>
+      <g class="cls-4">
+        <image width="84" height="50" transform="translate(99.81 184.63) scale(1.32 -1.32)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAAzCAYAAADmWEQdAAAACXBIWXMAAAhNAAAITQEhiCGBAAABE0lEQVR4nO3cQU7DMAAF0f9d7sCRuAriDtyTyxCziJMW2HZUqZq3aF2njp1R1+2cc0Z307bj0Yd4Ri/H4PXtMzPJ92japk3met/a5JxL1sdzrk1G93UZ+/dHkoykaWb3cZqM/WXdN+debffra7/buWPP+edaR67nzL6247ombbZ1z96Mj+ca6wyzPedz81xbk8v4vXZrcznOk+Tr4/1fVH+pAKMCjAowKsCoAKMCjAowKsCoAKMCjAowKsCoAKMCjAowKsCoAKMCjAowKsCoAKMCjAowKsCoAKMCjAowKsCoAKMCjAowKsCoAKMCjAowKsCoAKMCjAowKsCoAKMCjAowKsCoAKMC6p8o3FfbPvoMT+kHVZIjZawUfAYAAAAASUVORK5CYII="/>
+      </g>
+      <g class="cls-6">
+        <image width="72" height="50" transform="translate(57.91 123.96) scale(1.32 -1.32)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAAzCAYAAAA0CE5FAAAACXBIWXMAAAhNAAAITQEhiCGBAAAA/UlEQVRoge3bsVHEMBhE4d3VdQP10AMt0CQV4Z/A8h0EzAYEELwvkUaSNZ43Tu2ZGeFH+esX+O9u1+T56U1jybJkSbYkP0btNVty9vK1Z82eT3w/N7aOnOP43DuS+9ph6yOWE9mWI806R8XyshJJ0Z7v+yPNkm7XPNYsKZH85bmJlfU4k0hZ592z17PvUKQs6/315VsgvqCCQAWBCgIVBCoIVBCoIFBBoIJABYEKAhUEKghUEKggUEGggkAFgQoCFQQqCFQQqCBQQaCCQAWBCgIVBCoIVBCoIFBBoIJABYEKAhUEKghUEKggUEGggkAFgQoCFQQqCFSYH+rwK5//KiBdd1MFwgAAAABJRU5ErkJggg=="/>
+      </g>
+      <g class="cls-5">
+        <image width="84" height="50" transform="translate(99.81 123.96) scale(1.32 -1.32)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAAzCAYAAADmWEQdAAAACXBIWXMAAAhNAAAITQEhiCGBAAABHElEQVR4nO3cQWoDMRBE0folXyS73CQXMfh4OaKykGQGsnVhMPU2HuSZ6ebjtZlzTtXLAPjdS3yi27n4uf9KIBkJZCSzrrEEFkgYYV/OEUY+ZwOx34Mte30vkH3ex3OW7fW5z6/3cp7xmnX2kveaRh7rHNAY2jvqMmuuUUY6zzz3lsxcc5FkNLzfwVxzB7L2fZoy0g2EppD0+P76F7W/1IBGDWjUgEYNaNSARg1o1IBGDWjUgEYNaNSARg1o1IBGDWjUgEYNaNSARg1o1IBGDWjUgEYNaNSARg1o1IBGDWjUgEYNaNSARg1o1IBGDWjUgEYNaNSARg1o1IBGDWjUgEYNaNSARg1o1IBGDWjUgEYNoH+i8FoA797hI/0BFe4RZQUlqV4AAAAASUVORK5CYII="/>
+      </g>
+    </g>
+  </g>
+</svg>

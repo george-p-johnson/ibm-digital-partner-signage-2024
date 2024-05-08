@@ -4,7 +4,7 @@ function resetTimeout() {
     clearTimeout(timeout);
     timeout = setTimeout(() => {
         window.location.href = '../index.html'; // Redirect to the index page
-    }, 10000); // 300000 milliseconds = 5 minutes
+    }, 300000); // 300000 milliseconds = 5 minutes
 }
 
 // Set the initial timeout

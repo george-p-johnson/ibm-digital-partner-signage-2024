@@ -1,0 +1,57 @@
+/* * {
+    box-sizing: border-box;
+} */
+/* Handwritten CSS */
+body {
+   margin: 0;
+   font-family: 'IBM Plex Sans', sans-serif;
+   /* background-image: url("/assets/placeholders/partners.png"); */
+}
+
+.headline {
+   line-height: normal;
+   padding-top: 20px;
+
+}
+
+.subheader {
+   margin-bottom: 0px;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+.column {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   padding: 0px;
+}
+
+.column1 {
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 4rem;
+}
+
+.upper-border {
+   border-top: 1px solid grey;
+}
+
+.partners-img {
+   width: 50%;
+   height: 50%;
+   align-content: center;
+}
+
+/* .column2 {
+   justify-content: flex-start;
+   padding: 4rem;
+   background-image: url(/assets/img/logos/home.png);
+   background-size: cover;
+   background-position: center;
+} */

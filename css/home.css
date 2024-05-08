@@ -76,7 +76,7 @@ body, html {
 .column2 {
     justify-content: flex-start; /* Aligns content to the top */
     padding: 4rem;
-    background-image: url(/assets/img/3x/home@3x.png);
+    background-image: url(/assets/img/logos/home.png);
     background-size: cover;
     background-position: center;
 }
