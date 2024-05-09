@@ -40,12 +40,46 @@ body {
 
 .upper-border {
    border-top: 1px solid grey;
+   padding-bottom: 5px !important;
 }
 
 .partners-img {
-   width: 50%;
-   height: 50%;
+   width: 120px;
+   height: auto;
    align-content: center;
+}
+
+.flex-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: left;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+
+.flex-row-start {
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   align-items: left;
+   flex-wrap: wrap;
+   gap: 6.5rem;
+}
+
+.flex-item {
+   flex: 0 0 20%; /* Do not grow or shrink, and base width is 25% of the flex container */
+}
+
+.aws {
+      width: 5rem;
+      height: auto;
+}
+
+.cisco {
+   width: 110px;
+   height: auto;
+   margin-bottom: 10px;
 }
 
 /* .column2 {
@@ -55,3 +89,7 @@ body {
    background-size: cover;
    background-position: center;
 } */
+
+.h3 {
+   padding-top: 4px;
+}
