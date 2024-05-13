@@ -1,19 +1,44 @@
-/* * {
-    box-sizing: border-box;
-} */
-/* Handwritten CSS */
+* {
+   box-sizing: border-box;
+}
+
 body {
    margin: 0;
+   /* background-image: url(/assets/placeholders/partner.png); */
+}
+
+h1 {
    font-family: 'IBM Plex Sans', sans-serif;
-   background-image: url("/assets/placeholders/partner.png");
-}
+   font-style: normal;
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   align-items: left;
+   font-size: 4rem;
+   font-style: normal;
+   font-weight: 300;
+   padding: 0px 0px 0px 0px;
+   height: 75px;
+   border: none;
+ }
+ 
+ 
+ h2 {
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-style: normal;
+   font-weight: light;
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   align-items: left;
+   font-size: 32px;
+   line-height: 1.25;
+   font-style: normal;
+   font-weight: 300;
+   color: black;
+ }
 
-.headline {
-   line-height: normal;
-   padding-top: 20px;
-}
-
-* {
+ * {
    box-sizing: border-box;
    margin: 0;
    padding: 0;
@@ -29,10 +54,8 @@ body, html {
 
 .container {
    display: flex;
-   width: 90%;
-   height: 80%;
-   border: 2px solid #ccc; /* Optional border for visibility */
-   align-items: flex-start;
+   width: 100vw;
+   height: 100vh;
 }
 
 .column {
@@ -43,77 +66,76 @@ body, html {
 }
 
 .column1 {
-   justify-content: flex-start; /* Aligns content to the top */
+   justify-content: start; /* Aligns content to the top */
+   padding: 4rem;
 }
 
 .logo {
-   width: 100px; /* Adjust size as needed */
-   margin-bottom: 20px;
+   width: 150px; /* Adjust size as needed */
+   margin-bottom: 8rem;
 }
 
 .learn-more {
-   display: relative;
    position: absolute;
-   bottom: 600px;
-   right: ;
-   margin: 10px;
-   width: 100px; /* Adjust size as needed */
-   background-color: 0062FF;
+   top: 910px;
+   right: 588px;
+   width: 307px;
+   min-height: 6rem;
+   background-color: #0062FF;
    color: white;
    border: none;
    padding: 10px 20px;
    cursor: pointer;
+   margin-top: 1rem;
+   font-size: 2rem !important;
 }
 
 .column2 {
-   /* Style as needed */
+   justify-content: center; /* Aligns content to the top */
+   padding: 4rem;
+   background-size: cover;
+   background-position: center;
+   background-color: #F4F4F4;
 }
 
+.button {
+   position: absolute;
+ top: 0px;
+ right: 0;
+}
 
-  /* copy & text */
+.logo-container {
+   position: fixed;
+   top: 64px;  /* Adjust the value as needed for top spacing */
+   right: 62px; /* Adjust the value as needed for right spacing */
+   z-index: 1000; /* Ensures the logo stays on top of other content */
+}
 
-  .h1 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-style: normal;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    font-size: 64px;
-    font-weight: 300;
-    padding: 0px 0px 0px 0px;
-    height: 75px;
-    border: none;
-    color: #3D3D3D;
-  }
+.logo-container img {
+   display: block; /* This removes any extra space below the image */
+   width: 100px; /* Specify your desired width */
+   height: auto; /* Keeps the aspect ratio of the image */
+}
 
-    .h2 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-style: normal;
-    font-weight: light;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 300;
-    color: #3D3D3D;
-  }
+.x-container {
+   position: fixed;
+   top: -12px;  /* Adjust the value as needed for top spacing */
+   right: 1831px; /* Adjust the value as needed for right spacing */
+   z-index: 1000; /* Ensures the logo stays on top of other content */
+}
 
+.x-container img {
+   display: block; /* This removes any extra space below the image */
+   width: 100px; /* Specify your desired width */
+   height: auto; /* Keeps the aspect ratio of the image */
+}
 
-  .h3 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-style: normal;
-    font-weight: light;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: lighter;
-    color: #3D3D3D;
-  }
+.sponsor-logo {
+   display: flex;
+   justify-content: space-between;
+}
 
+.sponsor-logo img {
+   width: 100%;
+}
 /* end custom css */
