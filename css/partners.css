@@ -38,6 +38,11 @@ body {
    padding: 4rem;
 }
 
+.column2 {
+   flex-direction: column;
+   padding: 4rem;
+}
+
 .upper-border {
    border-top: 1px solid grey;
    padding-bottom: 5px !important;
@@ -47,15 +52,16 @@ body {
    width: 120px;
    height: auto;
    align-content: center;
+ /* Do not grow or shrink, and base width is 25% of the flex container */
 }
 
 .flex-row {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   align-items: left;
+   align-items: left !important;
    flex-wrap: wrap;
-   gap: 1rem;
+   gap: 2rem;
 }
 
 .flex-row-start {
@@ -92,4 +98,24 @@ body {
 
 .h3 {
    padding-top: 4px;
+}
+
+.pb-90 {
+   padding-bottom: 85px;
+}
+
+.pb-50 {
+   padding-bottom: 94px;
+}
+
+.mg-10 {
+   margin-bottom: 50px;
+}
+
+.white-out { 
+   color: white !important;
+}
+
+.white-image {
+   filter: brightness(0) invert(1);
 }
