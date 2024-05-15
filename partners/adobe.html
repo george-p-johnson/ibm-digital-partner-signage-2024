@@ -2,11 +2,13 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+    <title>Adobe</title>
+    <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel='stylesheet' href='https://unpkg.com/carbon-components@latest/css/carbon-components.css'><link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="/css/partner.css">
-  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/partner.css">
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2G4MY3GKZ"></script>
@@ -17,23 +19,48 @@
 
   gtag('config', 'G-V2G4MY3GKZ');
 </script>
-<script src="/scripts/timeout.js"></script>
+<script src="../scripts/timeout.js"></script>
+<script src="/scripts/modal.js"></script>
 <body>
-    <header ></header>
+    <div class="logo-container">
+        <img src="../assets/img/SVG/rebus.svg" alt="ibm">
+    </div>
+    <div class="x-container"><a href="../partners.html">
+        <img src="../assets/img/icons/SVG/x.svg" alt="x">
+    </a>
+    </div>
     <div class="container">
-        <div class="column column1">
-            <div >
-                <img src="/assets/img/SVG/think-2024.svg" alt="Logo" class="logo">
-            </div>
-            <div class="separator1">
-                <h1 class="headline">Welcome,<br>find out more about<br>IBM's Think 2024<br>game-changing sponsors. </h1>
-            </div>
-            <div class="button">
-                <a href="/partners.html"><button class="bx--btn learn-more">Learn more</button></a>
+        <div class="column column2">
+            <div class="sponsor-logo">
+                <img src="../assets/img/SVG/adobe.svg" alt="Logo" class="">
             </div>
         </div>
-        <div class="column column2">
-            <!-- Content for the second column -->
+        <div class="column column1">
+            <div >
+                <img src="../assets/img/SVG/think-2024.svg" alt="Logo" class="logo">
+            </div>
+            <div style="margin-right: 150px;" class="separator1">
+                <h2>Adobe is changing the world through digital experiences. Visit Adobe's booth to learn how to leverage AI with Adobe's solutions to personalize user experiences and improve customer engagement.
+                </h2>
+            </div>
+            <div class="button">
+                <button onclick="document.getElementById('id01').style.display='block'" class="bx--btn learn-more">Learn more</button>
+            </div>
+
+            <!-- The Modal -->
+            <div id="id01" class="w3-modal">
+                <div class="w3-modal-content">
+                  <div class="w3-container">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                        <div class="modal-content">
+                            <div>
+                            <img class="modal-img" src="data:image/png;base64,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"/>
+                        </div>
+                        <div class="h2 modal-text">Find out more</div>
+                        </div>
+                  </div>
+                </div>
+              </div>
         </div>
     </div>
 </body>
