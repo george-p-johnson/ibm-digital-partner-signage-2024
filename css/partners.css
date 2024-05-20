@@ -77,17 +77,26 @@ body {
    flex: 0 0 20%; /* Do not grow or shrink, and base width is 25% of the flex container */
 }
 
+/*logo css*/
+
 .aws {
       width: 5rem;
       height: auto;
 }
 
-.cisco {
-   width: 110px;
+.sm-logo {
+   width: 6rem;
    height: auto;
-   margin-bottom: 10px;
 }
 
+.lg-logo {
+   width: 12rem;
+   height: auto;
+   margin-left: -35px;
+}
+
+/* end logo css */
+ 
 /* .column2 {
    justify-content: flex-start;
    padding: 4rem;
@@ -118,4 +127,9 @@ body {
 
 .white-image {
    filter: brightness(0) invert(1);
+}
+
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
 }
