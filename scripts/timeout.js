@@ -3,7 +3,7 @@ let timeout;
 function resetTimeout() {
     clearTimeout(timeout);
     timeout = setTimeout(() => {
-        window.location.href = '../index.html'; // Redirect to the index page
+        window.location.href = 'https://george-p-johnson.github.io/ibm-digital-partner-signage-2024/index.html'; // Redirect to the index page
     }, 300000); // 300000 milliseconds = 5 minutes
 }
 
